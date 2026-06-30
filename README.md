@@ -58,11 +58,13 @@ subset_sum_WeightedAdder.ipynb	Earlier implementation using Qiskit’s built-in 
 
 ## Example Usage
 
-Open Subset_Sum_Manual_Adder.ipynb in Jupyter Notebook or Google Colab and run the cells sequentially.
+Open Subset_Sum_Manual_Adder.ipynb in Jupyter Notebook or Google Colab and run the cells sequentially. Alternatively, exacute Subset_Sum_Final.py to run the benchmark examples included in the project. 
 
-To solve a subset-sum instance for the example mentioned earlier, call 
+To solve the example introduced above, call 
 
 run_grover([2, 3, 5,7], 7)
+
+The program computes the final statevector, displays a histogram of the resulting probability distribution over all candidate subsets, and prints the most likely subset found by Grover's algorithm. 
 
 
 The notebook will
