@@ -12,7 +12,7 @@ Instead of relying on Qiskit’s built-in WeightedAdder circuit, the subset-sum 
 Given a finite set of positive integers A = {a₀, a₁, ..., aₙ₋₁} and a target value T, the objective is to determine a subset S ⊆ A whose elements satisfy ∑ x = T,   x ∈ S. For example, A = {2, 3, 5, 7} and T = 7 has solutions {7} and {2,5}.
 
 
-## ALGORITHM OVERVIEW 
+## Algorithm Overview
 
 Each possible subset is represented by a binary string. For example, fo the example above, 1010 means that the 3 and 7 are included in the subset.
 
@@ -30,7 +30,7 @@ The subsets with the highest probabilities correspond to the solutions amplified
 
 
 
-## REPOSITORY CONTENTS
+## Repository Contents
 
 
 *Subset_Sum_Manual_Adder.ipynb	Complete notebook containing the implementation, explanations, circuit construction, and benchmark examples.
@@ -56,7 +56,7 @@ subset_sum_WeightedAdder.ipynb	Earlier implementation using Qiskit’s built-in 
 
 
 
-## EXAMPLE USAGE
+## Example Usage
 
 Open Subset_Sum_Manual_Adder.ipynb in Jupyter Notebook or Google Colab and run the cells sequentially.
 
